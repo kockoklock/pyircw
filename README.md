@@ -12,6 +12,8 @@ Before the fun begins you need to connect to the server, register and join a cha
 All functions need to take in two arguments, the Bot instance and the IRC\_Message sent.
 
 ```
+import irc
+
 def hello(b, m):
     return f'Hello {m.nickname}!'
 
